@@ -143,6 +143,7 @@ body {
   background-position: top 25% right 0%;
   padding: 0 80px;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -169,7 +170,7 @@ body {
 
 #feature {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -226,13 +227,19 @@ body {
 }
 
 #product1 .pro-container {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
+     display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 20px;
+  
 }
 
-#product1 .pro {
+#product1 .pro { display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 20px;
   width: 23%;
   min-width: 250px;
   padding: 10px 15px;
